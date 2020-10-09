@@ -1,0 +1,30 @@
+{
+    "strict": true,
+    "debug": true,
+    "sp": {
+        "entityId": "https://ctfd.jointcyberrange.nl/metadata/",
+        "assertionConsumerService": {
+            "url": "https://ctfd.jointcyberrange.nl/?acs",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+        },
+        "singleLogoutService": {
+            "url": "https://ctfd.jointcyberrange.nl/?sls",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "NameIDFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+        "x509cert": "MIIDpzCCAo8CFGCLzrKjUgSabIIBKd8ySmHWyc1zMA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQG EwJOTDEQMA4GA1UECAwHVXRyZWNodDEQMA4GA1UEBwwHVXRyZWNodDEVMBMGA1UECgwMU1VSRm5l dCBCLlYuMRMwEQYDVQQLDApTVVJGY29uZXh0MSwwKgYDVQQDDCNTVVJGY29uZXh0IHRlc3QgZW52 aXJvbm1lbnQgcm9vdCBDQTAeFw0xOTAyMDgxNTE4MzVaFw0yMzEyMTgxNTE4MzVaMIGTMQswCQYD VQQGEwJOTDEQMA4GA1UECAwHVXRyZWNodDEQMA4GA1UEBwwHVXRyZWNodDEVMBMGA1UECgwMU1VS Rm5ldCBCLlYuMRMwEQYDVQQLDApTVVJGY29uZXh0MTQwMgYDVQQDDCtTVVJGY29uZXh0IG1ldGFk YXRhIHRlc3QgZW52aXJvbm1lbnQgc2lnbmVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC AQEAlO9NxwJz0F1gE3NHqczpg75MFvjBXDR5uvm99N9su8908y7dXKewyxR5TrpWdqlub08QomzC 11FBDsEVdDOg73tZ/PCOFLVuhxwV0Wy6YpuwVx8mX+UvZ38YsxBKJoQkxylTL+bb3e1nKKohTgnQ mQ4XEYCbA5Kq7E+nwmOpUqLp5NMOafct/zMqXeA2DBZtTpylsOQxa5ACcOSYLBbCD34xPyiUV5FH XiPooSPFmEQkMLK5Fq6oYJJouwoyx/xW6I+JJ2lnr3HWy36qbgRjpBs9XvY6IxduxymImiBCBC1u D8IWB4Id/BcTTWoflaf1laNPy/oaEeXaG6+Nu/Ex6wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBu QHdiWCgD5BxIyHImPMt1LmRCZ2/8E2emDmQZCUm9+RBVzLjZwVr0EVNXFXvjhNKnuFnyYgyPzi2N zSCd0lIzFwSnaKH/2s2/9oVfnz/jWq9LbtleJce5sSKf87f+9WB72FwigUyzbRfVrZeWJkEPF8RO 25Bc6yZ0UimJNsZp391zGmr2MuYgLmUB+eHJlYf8qIRQt2QdfLXnQFq2BjbEic50L+cY/hm0++0T giKBJVByBurXGVwIUWL4DB1cvNhGWs/QBOUj5lenabtQEm/u6DLxDakRdEbiOez0W5bpVR3Waq+E t+xvVhVfOJy5zntVFISOsIqi6GJN/jiJPHk3 ",
+        "privateKey": "lO9NxwJz0F1gE3NHqczpg75MFvjBXDR5uvm99N9su8908y7dXKewyxR5TrpWdqlub08QomzC11FB DsEVdDOg73tZ/PCOFLVuhxwV0Wy6YpuwVx8mX+UvZ38YsxBKJoQkxylTL+bb3e1nKKohTgnQmQ4X EYCbA5Kq7E+nwmOpUqLp5NMOafct/zMqXeA2DBZtTpylsOQxa5ACcOSYLBbCD34xPyiUV5FHXiPo oSPFmEQkMLK5Fq6oYJJouwoyx/xW6I+JJ2lnr3HWy36qbgRjpBs9XvY6IxduxymImiBCBC1uD8IW B4Id/BcTTWoflaf1laNPy/oaEeXaG6+Nu/Ex6w== "
+    },
+    "idp": {
+        "entityId": "https://engine.test.surfconext.nl/authentication/idp/metadata",
+        "singleSignOnService": {
+            "url": "https://engine.test.surfconext.nl/authentication/idp/single-sign-on/key:20190208",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "singleLogoutService": {
+            "url": "https://engine.test.surfconext.nl/authentication/idp/single-sign-on/key:20190208",
+            "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+        },
+        "x509cert": "MIIDpzCCAo8CFGCLzrKjUgSabIIBKd8ySmHWyc1zMA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQG EwJOTDEQMA4GA1UECAwHVXRyZWNodDEQMA4GA1UEBwwHVXRyZWNodDEVMBMGA1UECgwMU1VSRm5l dCBCLlYuMRMwEQYDVQQLDApTVVJGY29uZXh0MSwwKgYDVQQDDCNTVVJGY29uZXh0IHRlc3QgZW52 aXJvbm1lbnQgcm9vdCBDQTAeFw0xOTAyMDgxNTE4MzVaFw0yMzEyMTgxNTE4MzVaMIGTMQswCQYD VQQGEwJOTDEQMA4GA1UECAwHVXRyZWNodDEQMA4GA1UEBwwHVXRyZWNodDEVMBMGA1UECgwMU1VS Rm5ldCBCLlYuMRMwEQYDVQQLDApTVVJGY29uZXh0MTQwMgYDVQQDDCtTVVJGY29uZXh0IG1ldGFk YXRhIHRlc3QgZW52aXJvbm1lbnQgc2lnbmVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC AQEAlO9NxwJz0F1gE3NHqczpg75MFvjBXDR5uvm99N9su8908y7dXKewyxR5TrpWdqlub08QomzC 11FBDsEVdDOg73tZ/PCOFLVuhxwV0Wy6YpuwVx8mX+UvZ38YsxBKJoQkxylTL+bb3e1nKKohTgnQ mQ4XEYCbA5Kq7E+nwmOpUqLp5NMOafct/zMqXeA2DBZtTpylsOQxa5ACcOSYLBbCD34xPyiUV5FH XiPooSPFmEQkMLK5Fq6oYJJouwoyx/xW6I+JJ2lnr3HWy36qbgRjpBs9XvY6IxduxymImiBCBC1u D8IWB4Id/BcTTWoflaf1laNPy/oaEeXaG6+Nu/Ex6wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBu QHdiWCgD5BxIyHImPMt1LmRCZ2/8E2emDmQZCUm9+RBVzLjZwVr0EVNXFXvjhNKnuFnyYgyPzi2N zSCd0lIzFwSnaKH/2s2/9oVfnz/jWq9LbtleJce5sSKf87f+9WB72FwigUyzbRfVrZeWJkEPF8RO 25Bc6yZ0UimJNsZp391zGmr2MuYgLmUB+eHJlYf8qIRQt2QdfLXnQFq2BjbEic50L+cY/hm0++0T giKBJVByBurXGVwIUWL4DB1cvNhGWs/QBOUj5lenabtQEm/u6DLxDakRdEbiOez0W5bpVR3Waq+E t+xvVhVfOJy5zntVFISOsIqi6GJN/jiJPHk3 "
+    }
+}
